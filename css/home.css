@@ -41,7 +41,7 @@ header{
     border-radius: 50%;
 }
 body{
-    background-color: var(--black);
+    background-color: var(--gray-white);
     font-size: 12pt 20pt;
 }
 
@@ -77,7 +77,7 @@ nav li{
     width: 300px;
     height: 400px;
     border: solid 2px var(--gray);
-    background-color: var(--blue);
+    background-color: var(--gray-black);
 
 }
 
