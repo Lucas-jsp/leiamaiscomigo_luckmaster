@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import "./nav.css";
 :root{
     --blue: #0000ff;
     --white: #ffffff;
@@ -5,11 +7,12 @@
     --gray: #6b6b6b;
     --purple: #640164;
     --gray-white: #cfcfcf;
-    --gray-black: #383838;
+    --gray-black: #3f3f3f;
     --invisible-white: #ffffff50;
-    --shadow:#1f1f1f50
+    --shadow:#1f1f1f50;
     --font-title: "serif";
-    --font-primary: "roboto";
+    --font-primary: Roboto;
+    --image-background: url(../image/background-top.jpg);
 }
 
 * {
