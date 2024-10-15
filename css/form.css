@@ -26,3 +26,14 @@ button{
     border-radius: 8px;
     border:solid 1px var(--blue)
 }
+
+.form-group button:hover{
+    background-color: var(--white);
+    color: var(--blue);
+}
+
+.form-group-button{
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+}
