@@ -1,5 +1,12 @@
+@import "./form.css";
+
+body{
+    background-color: var(--gray-white);
+
+}
+
 /*header*/
-header{
+header {
     background-image: var(--image-background);
     background-size: cover;
     background-position: center;
@@ -40,36 +47,9 @@ header{
     background-color: black;
     border-radius: 50%;
 }
-body{
-    background-color: var(--gray-white);
-    font-size: 12pt 20pt;
-}
 
-nav ul {
-    display: flex;
-    justify-content:center;
-}
 
-nav li{
-    list-style: none;
-}
 
-.nav-top{
-    line-height: 40px;
-    background-color: var(--blue);
-}
-
-.nav-top li a{
-    text-decoration: none;
-    color: var(--white);
-    padding: 10px 20px;
-}
-
-.nav-top li a:hover{
-    color: var(--purple);
-    background-color: var(--gray);
-    border-bottom: solid 4px var(--white);
-}
 /*section*/
 
 
@@ -117,7 +97,6 @@ nav li{
 .contact-map,
 .contact-form{
     width: 50%;
-    padding: 40px;
     font-family: var(--font-primary);
 }
 .contact-map h2{
@@ -128,25 +107,28 @@ nav li{
     font-size: 18px;
     margin-bottom: 10px;
 }
+
 /* Form */
 .form-group{
-    display: flex;
-    width: 100%;
+    display:flex;
 }
 
-.form-group input,
-.form-group select,
-.form-group text area,
-textarea,
-button{
-    width:100%;
-    margin-bottom: 10px;
-    color: var(--white);
-    background-color: var(--gray-black);
-    font-family: var(--font-primary);
-    border-radius: 10px;
+@media (max-width:760px) {
+    .contact{
+        flex-direction: column;
+    }
+    .contact-map,
+    .contact-form{
+        width: 100%;
+    }
 }
 
-.form-group button{
-    background-color: var(--blue);
+
+@media (max-width: 400px){
+    .header-content{
+        flex-direction: column-reverse
+    }
+    .contact{
+        flex-direction: column;
+    }
 }

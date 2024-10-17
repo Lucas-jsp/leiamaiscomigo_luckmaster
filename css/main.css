@@ -12,6 +12,9 @@
     --shadow:#1f1f1f50;
     --font-title: "serif";
     --font-primary: Roboto;
+    --font-title:  "Nunito", sans-serif;
+    --font-primary:  "Roboto", sans-serif;
+    --font-size-default: 16px;
     --image-background: url(../image/background-top.jpg);
 }
 
@@ -19,6 +22,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    font-family: var(--font-primary);
+    font-size: var(--font-size-default);
 }
 
 a {
@@ -31,4 +39,4 @@ a {
     min-width: 340px;
     max-width: 1280px;
     margin: auto;
-}
+}/*

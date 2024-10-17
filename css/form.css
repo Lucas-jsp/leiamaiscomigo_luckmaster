@@ -3,19 +3,22 @@
 
 .form-group{
     display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 .form-group input,
 .form-group select,
 .form-group text area,
-textarea,
 button{
     width:100%;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
     color: var(--white);
     background-color: var(--gray-black);
     font-family: var(--font-primary);
-    border-radius: 10px;
+    border-radius: 8px;
+    border:solid 1px var(--blue)
 }
 
 .form-group button{
